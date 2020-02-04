@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PG_Arrays", "PG_Arrays.csproj", "{89088067-7D9B-4D11-A582-015B89438C43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89088067-7D9B-4D11-A582-015B89438C43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89088067-7D9B-4D11-A582-015B89438C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89088067-7D9B-4D11-A582-015B89438C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89088067-7D9B-4D11-A582-015B89438C43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC8A2648-9C99-4F4E-B461-A346BCE6B3A0}
+	EndGlobalSection
+EndGlobal
