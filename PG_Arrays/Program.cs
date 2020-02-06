@@ -15,9 +15,11 @@ namespace PG_Arrays
             // Declaring an array with the size of 25 
             // the +1 is needed for the countdown to start from 1 and not 0
             int[] array = new int[number+1];
+            int populate_array = 0;
             // Using the for loop to iterate throught the array 
             for (int index = 1; index < number+1; index++)
             {
+                array[index] = populate_array;
                 Console.Write("Element value = " + index + " ");
                 Console.WriteLine();
             }
