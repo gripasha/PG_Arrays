@@ -6,7 +6,7 @@ namespace PG_Arrays
     {
         static void Main(string[] args)
         {
-            // Declaring a number of 25 for the array size
+            // Declaring a number of 25 for the future array size
             int number = 25; 
             Console.WriteLine("This is an Auto-Populated Array Program ");
             Console.WriteLine("The chosen number for this program is: 25");
