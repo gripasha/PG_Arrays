@@ -6,24 +6,18 @@ namespace PG_Arrays
     {
         static void Main(string[] args)
         {
-            // Declaring a number of 25 for the future array size
-            int number = 25; 
-            Console.WriteLine("This is an Auto-Populated Array Program ");
-            Console.WriteLine("The chosen number for this program is: 25");
-            Console.WriteLine("Lets begin!");
-            Console.WriteLine("-----------------------------------------");
-            // Declaring an array with the size of 25 
-            // the +1 is needed for the countdown to start from 1 and not 0
-            int[] array = new int[number+1];
-            int populate_array = 0;
-            // Using the for loop to iterate throught the array 
-            for (int index = 1; index < number+1; index++)
+            Console.WriteLine("Here is an array program!");
+            Console.WriteLine("-------------------------------------------");
+            // Declare an array with 25 elements
+            int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25 };
+            foreach (int i in numbers)
             {
-                array[index] = populate_array;
-                Console.Write("Element value = " + index + " ");
+                Console.Write("Element Value = " + i);
                 Console.WriteLine();
             }
-            Console.WriteLine("-----------------------------------------"); 
+            Console.WriteLine("-------------------------------------------");
+            Console.WriteLine("Provide an input to exit the program."); 
+            Console.ReadKey(true);
         } // END
     }
 }
